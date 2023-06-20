@@ -1,0 +1,39 @@
+.banner-section{
+    height: 600px;
+    background-image: url(../images/730.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 800px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #999999;
+    border-radius: 10px;
+}
+.text-box{
+    width: 450px;
+}
+.banner-title{
+    font-size: 45px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.banner-text{
+    border-left: 3px solid #999999;
+    color: #999999;
+    padding: 5px 30px;
+
+}
+.banner-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(229, 103, 103);
+    margin-top: 40px;
+    padding: 14px 20px;
+    border-radius: 3px;
+}
+.banner-link:hover{
+    background-color: crimson;
+}
